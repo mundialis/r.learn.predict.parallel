@@ -1,0 +1,10 @@
+[flake8]
+
+# E501 line too long
+# F821 undefined name '_'
+
+exclude = .git
+max-line-length = 88
+per-file-ignores =
+    ./r.learn.parallel.predict/r.learn.parallel.predict.py: F821, E501
+    ./r.learn.predict.worker/r.learn.predict.worker.py: F821, E501
